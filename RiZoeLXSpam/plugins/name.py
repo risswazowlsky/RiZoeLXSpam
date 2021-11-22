@@ -1,4 +1,3 @@
-
 import asyncio
 import base64
 import os
@@ -44,7 +43,7 @@ async def name(e):
             try:
                 await e.client(functions.account.UpdateProfileRequest(first_name=firstname))
                 event = await e.reply(text, parse_mode=None, link_preview=None )
-                await event.edit("Changed name successfully!")
+                await event.edit("**Changed Name Successfully In** ✧ 𝗣𝗥∆𝗧𝗛𝗘𝗘𝗞 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 ✧")
             except Exception as e:
                 await print(str(e))   
         else:
