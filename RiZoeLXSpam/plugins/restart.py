@@ -30,7 +30,7 @@ for x in SUDO_USERS:
 @Riz20.on(events.NewMessage(pattern=".restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "**Restarting Your RiZoeL X Spam**.. Please Wait Until It Starts Again"
+        text = "**Restarting Your** 𝗣𝗥𝗔𝗧𝗛𝗘𝗘𝗞 𝗦𝗣∆𝗠𝗕𝗢𝗧.. Please Wait Until It Starts Again"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await Riz.disconnect()
