@@ -30,7 +30,7 @@ RiZoeLX += f" `.raid` - to raid\n `.replyraid` - to active reply raid\n `.dreply
 RiZoeLX += f"© @Pratheek06 | @AboutPratheek\n"
 
 
-@Riz.on(events.NewMessage(pattern=".help"))
+@Riz.on(events.NewMessage(pattern=r"\.help"))
 async def help(event):
     if event.sender_id in SMEX_USERS:
      await Riz.send_file(event.chat_id,
