@@ -8,11 +8,11 @@ SMEX_USERS = []
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/0b6cf7e381eeffecc7582.mp4"
   
 
           
-rizoel = "✧ 𝗣𝗥∆𝗧𝗛𝗘𝗘𝗞 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 𝗜𝗦 𝗔𝗟𝗜𝗩𝗘 ✧\n\n"
+rizoel = "✧ × R A F E N × ✧\n\n"
 
 rizoel += f"┏━━━━━━━━━━━━━━━━━━━\n"
 
@@ -20,15 +20,15 @@ rizoel += f"┣➣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
 
 rizoel += f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__version__}`\n"
 
-rizoel += f"┣➣ **𝗣𝗥𝗔𝗧𝗛𝗘𝗘𝗞 𝗦𝗣∆𝗠𝗕𝗢𝗧 ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
+rizoel += f"┣➣ **ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
     
-rizoel += f"┣➣ **ᴀʙᴏᴜᴛ ᴍᴇ** : [JOIN](https://t.me/aboutpratheek)\n"
+rizoel += f"┣➣ **Groups ᴍᴇ** : [JOIN](https://t.me/CariKenalanBebas)\n"
 
-rizoel += f"┣➣ **ᴄʀᴇᴀᴛᴏʀ** : [JOIN](https://t.me/pratheek06)\n"
+rizoel += f"┣➣ **ᴄʀᴇᴀᴛᴏʀ** : [JOIN](https://t.me/Rafens)\n"
 
 rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n\n"
 
-rizoel += f"🖤 [𝐎𝐖𝐍𝐄𝐑-𝐗𝐃](https://t.me/pratheek06) 🖤"            
+rizoel += f"🖤 [𝐎𝐖𝐍𝐄𝐑-𝐗𝐃](https://t.me/Rafens) 🖤"            
                                     
 @Riz.on(events.NewMessage(pattern=r"\.alive"))
 async def alive(event):
