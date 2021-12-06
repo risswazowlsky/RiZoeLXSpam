@@ -22,11 +22,11 @@ rizoel += f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__vers
 
 rizoel += f"┣➣ **ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
     
-rizoel += f"┣➣ **Groups ᴍᴇ** : [ᴊᴏɪɴ](https://t.me/CariKenalanBebas)\n"
+rizoel += f"┣➣ **Groups ᴍᴇ** : [Tap](https://t.me/CariKenalanBebas)\n"
 
 rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n\n"
 
-rizoel += f"😁𝙸 𝙻𝙾𝚅𝙴 𝙼𝚈 𝙲𝚁𝚄𝚂𝙷(https://t.me/Rafens)"            
+rizoel += f"😁[𝙸 𝙻𝙾𝚅𝙴 𝙼𝚈 𝙲𝚁𝚄𝚂𝙷](https://t.me/Rafens)"            
                                     
 @Riz.on(events.NewMessage(pattern=r"\.alive"))
 async def alive(event):
