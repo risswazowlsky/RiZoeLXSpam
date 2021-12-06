@@ -63,4 +63,4 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"•ᴄʜᴇᴄᴋ ᴘɪɴɢꜱ ᴄᴏᴍᴘʟᴇᴛᴇʟʏ...\n•ᴄᴜʀʀᴇɴᴛʟʏ ᴏɴʟɪɴᴇ:{ms} ms <-")                       
+        await event.edit(f"🔥𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 𝗢𝗻𝗹𝗶𝗻𝗲 {ms} ms")                       
