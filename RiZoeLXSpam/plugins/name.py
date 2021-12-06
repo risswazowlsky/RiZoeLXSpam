@@ -39,11 +39,11 @@ async def name(e):
         RiZoeL = names[1]
         if len(e.text) > 5:
             firstname = RiZoeL
-            text = "Changing Name..."
+            text = "Changing Name...Wait.."
             try:
                 await e.client(functions.account.UpdateProfileRequest(first_name=firstname))
                 event = await e.reply(text, parse_mode=None, link_preview=None )
-                await event.edit("**Changed Name Successfully In** ✧ 𝗣𝗥∆𝗧𝗛𝗘𝗘𝗞 𝗦𝗣𝗔𝗠 𝗕𝗢𝗧 ✧")
+                await event.edit("**Changed Name Successfully In** ✧ R A F E N 𝗕𝗢𝗧 ✧")
             except Exception as e:
                 await print(str(e))   
         else:
