@@ -7,11 +7,11 @@ SMEX_USERS = []
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
     
-HELP_PIC = "https://telegra.ph/file/4003d1db7e5354152cd29.jpg"
+HELP_PIC = "https://telegra.ph/file/0b6cf7e381eeffecc7582.mp4"
 
-RiZoeLX = "🔥 𝗣𝗥𝗔𝗧𝗛𝗘𝗘𝗞 𝗦𝗣∆𝗠𝗕𝗢𝗧 🔥\n\n"
+RiZoeLX = "🔥 R A F E N 𝗕𝗢𝗧 🔥\n\n"
  
-RiZoeLX += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ♡︎𝗣𝗥𝗔𝗧𝗛𝗘𝗘𝗞 𝗦𝗣∆𝗠𝗕𝗢𝗧♡︎__\n\n"
+RiZoeLX += f"__ᴄᴍᴅs ᴀᴠᴀɪʟᴀʙʟᴇ ɪɴ ♡︎ R A F E N ♡︎__\n\n"
 
 RiZoeLX += f" ↧ 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 𝙲𝙼𝙳𝚂 ↧\n\n"
 
@@ -27,7 +27,7 @@ RiZoeLX += f" `.raid` - to raid\n `.replyraid` - to active reply raid\n `.dreply
  
 RiZoeLX += f" `.raid` - to raid\n `.replyraid` - to active reply raid\n `.dreplyraid` - to de-active reply raid\n `.spam` - this cmd use for Normal spam\n `.bigspam` - this cmd use for big spam\n `.delayspam` - this cmd use for delay spam\n\n"
 
-RiZoeLX += f"© @Pratheek06 | @AboutPratheek\n"
+RiZoeLX += f"© @Rafens | @CariKenalanBebas\n"
 
 
 @Riz.on(events.NewMessage(pattern=r"\.help"))
