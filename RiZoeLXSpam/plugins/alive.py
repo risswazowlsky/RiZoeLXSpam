@@ -12,7 +12,7 @@ RIZ_PIC = ALIVE_PIC if ALIVE_PIC else ""
   
 
           
-rizoel = "✧ -[𝗥𝗔𝗙𝗘𝗡-𝗕𝗢𝗧] 𝗶𝘀 𝗔𝗹𝗶𝘃𝗲 ✧͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏\n\n"
+rizoel = "✧ [𝗥𝗔𝗙𝗘𝗡-𝗕𝗢𝗧] 𝗶𝘀 𝗔𝗹𝗶𝘃𝗲 ✧͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏\n\n"
 rizoel += f"┏━━━━━━━━━━━━━━━━━━━\n"
 
 rizoel += f"┣➣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
@@ -25,7 +25,7 @@ rizoel += f"┣➣ **Groups ᴍᴇ** : [ᴊᴏɪɴ](https://t.me/CariKenalanBeba
 
 rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n\n"
 
-rizoel += f"😁「𝙸 𝙻𝙾𝚅𝙴 𝙼𝚈 𝙲𝚁𝚄𝚂𝙷」😁(tg://settings) "            
+rizoel += f"😁「𝙸 𝙻𝙾𝚅𝙴 𝙼𝚈 𝙲𝚁𝚄𝚂𝙷」😁 (https://t.me/Rafens) "            
                                     
 @Riz.on(events.NewMessage(pattern=r"\.alive"))
 async def alive(event):
