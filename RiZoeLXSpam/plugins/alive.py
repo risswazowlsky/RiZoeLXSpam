@@ -8,12 +8,11 @@ SMEX_USERS = []
 for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
-RIZ_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/0b6cf7e381eeffecc7582.mp4"
+RIZ_PIC = ALIVE_PIC if ALIVE_PIC else ""
   
 
           
-rizoel = "✧ × R A F E N × ✧\n\n"
-
+rizoel = "✧ -[𝗥𝗔𝗙𝗘𝗡-𝗕𝗢𝗧] 𝗶𝘀 𝗔𝗹𝗶𝘃𝗲 ✧͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏\n\n"
 rizoel += f"┏━━━━━━━━━━━━━━━━━━━\n"
 
 rizoel += f"┣➣ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.9.6`\n"
@@ -22,13 +21,11 @@ rizoel += f"┣➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `{version.__vers
 
 rizoel += f"┣➣ **ᴠᴇʀsɪᴏɴ**  : `{rizoelversion}`\n"
     
-rizoel += f"┣➣ **Groups ᴍᴇ** : [JOIN](https://t.me/CariKenalanBebas)\n"
-
-rizoel += f"┣➣ **ᴄʀᴇᴀᴛᴏʀ** : [JOIN](https://t.me/Rafens)\n"
+rizoel += f"┣➣ **Groups ᴍᴇ** : [ᴊᴏɪɴ](https://t.me/CariKenalanBebas)\n"
 
 rizoel += f"┗━━━━━━━━━━━━━━━━━━━\n\n"
 
-rizoel += f"🖤 [𝐎𝐖𝐍𝐄𝐑-𝐗𝐃](https://t.me/Rafens) 🖤"            
+rizoel += f"😁「𝙸 𝙻𝙾𝚅𝙴 𝙼𝚈 𝙲𝚁𝚄𝚂𝙷」😁(tg://settings) "            
                                     
 @Riz.on(events.NewMessage(pattern=r"\.alive"))
 async def alive(event):
