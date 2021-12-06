@@ -63,4 +63,4 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"█▀█ █▀█ █▄░█ █▀▀\n█▀▀ █▄█ █░▀█ █▄█\n\n♡︎ RAFEN ♡︎\n{ms} ᴍs")                       
+        await event.edit(f"`Sɪɢᴍᴀ ʀᴜʟᴇ #31 </Always remember Money is the most powerful thing'>\n\n\n🔥ᴄᴜʀʀᴇɴᴛʟʏ ᴏɴʟɪɴᴇ\n{ms} 🕶️")                       
